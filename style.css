@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.perant {
+   background-color: #eee;
+   width: 60%;
+   height: max-content;
+   margin: auto;
+   transform: translateY(20vh);
+   display: grid;
+   grid-template-columns: repeat(3,calc(100%/3));
+   overflow: hidden;
+   border-radius:20px ;
+   -webkit-transform: translateY(20vh);
+   -moz-transform: translateY(20vh);
+   -ms-transform: translateY(20vh);
+   -o-transform: translateY(20vh);
+   color: white;
+   position: relative;
+   -webkit-border-radius:20px ;
+   -moz-border-radius:20px ;
+   -ms-border-radius:20px ;
+   -o-border-radius:20px ;
+}
+
+.one  .data {
+    padding: 30px 0 20px 5%;
+    font-size: 18px;
+    color: #ffffffa7;
+
+}
+
+  .one {
+    padding: 10px;
+  }
+   
+.one span {
+    color: white;
+    font-size: 30px;
+    display: block;
+    margin: 10px 0px ;
+  padding: 0%;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+
+}
+.one1 {
+    background-color: #e28525;
+
+}
+.one2 {
+    background-color: #016972;
+
+}
+.one3 {
+    background-color: #00403f;
+
+}
+button {
+   margin-top: 50px;
+   position: relative;
+   left: 50%;
+   transform: translateX(-50%);
+   -webkit-transform: translateX(-50%);
+   -moz-transform: translateX(-50%);
+   -ms-transform: translateX(-50%);
+   -o-transform: translateX(-50%);
+   background-color: rgba(255, 255, 255, 0.848);
+   width: 80%;
+   padding: 20px;
+   font-size: 20px;
+   border-radius:50px ;
+   -webkit-border-radius:50px ;
+   -moz-border-radius:50px ;
+   -ms-border-radius:50px ;
+   -o-border-radius:50px ;
+}
+.one1 button:hover {
+    color:rgba(255, 255, 255, 0.848); 
+    background-color: #e28525; 
+
+}
+.one2 >  button:hover {
+    background-color: #016972;
+    color:rgba(255, 255, 255, 0.848); 
+  
+
+}
+.one3 > button:hover {
+    background-color: #00403f;
+    color:rgba(255, 255, 255, 0.848); 
+   
+
+}
+.one1 span::selection,
+.one1 .data::selection {
+    background-color:rgba(255, 255, 255, 0.848);
+    color: #e28525;
+}
+.one2 span::selection,
+.one2 .data::selection {
+    background-color:rgba(255, 255, 255, 0.848);
+    color: #016972;
+}
+.one3 span::selection,
+.one3 .data::selection {
+    background-color:rgba(255, 255, 255, 0.848);
+
+    color: #00403f;
+}
+

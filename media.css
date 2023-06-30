@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+  position: relative;
+}
+.perant {
+    position: absolute;
+    overflow: hidden;
+    top: -179px;
+    width: 100%;
+    height: fit-content;
+    padding:0px  0px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 3%;
+    -webkit-border-radius: 3%;
+    -moz-border-radius: 3%;
+    -ms-border-radius: 3%;
+    -o-border-radius: 3%;
+}
+ .one {
+    width: 100%;
+    padding: 10px 10px;
+ }
